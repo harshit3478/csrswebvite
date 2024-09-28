@@ -1,0 +1,16 @@
+
+.login{
+
+    height: 100vh;
+    width: 100vw;;
+    background-image: url("/kgpimage.jpg");
+    /* background-size: 100%; */
+    backdrop-filter: blur(.1px);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+  }
