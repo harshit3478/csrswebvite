@@ -124,7 +124,6 @@ const Case: React.FC = () => {
             caseDetails.location.longitude
           )}
           <div className="text-center">
-            {/* <button className="btn bg-slate-300" onClick={() => navigate('/')}>Home</button> */}
           {caseDetails.status === "Pending" && <button onClick={()=> setShowResolveModal(true)} className="btn btn-success bg-red-700 text-white">Resolve</button>}
           </div>
         </div>
